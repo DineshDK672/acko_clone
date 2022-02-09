@@ -50,7 +50,7 @@ header{
 
 .navi li a{
     padding: 0px 40px 2px 0px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .prod-l{
@@ -58,8 +58,10 @@ header{
 }
 
 .prod-l:hover .prod{
-    display: flex;
+    display: flex; 
+    
 }
+
 .prod{
     width:100%;
     display: none;
@@ -71,6 +73,7 @@ header{
     left:0px;
     position: absolute;
 }
+
 .prod-flex{
     display:flex;
     width: 100%;
@@ -162,12 +165,71 @@ header{
     width: 100%;
 }
 
+.rcs-l:hover .rcs{
+    display: flex;
+}
+
+.rcs{
+    box-sizing: border-box;
+    background: white;
+    padding: 8px;
+    width: 227px;
+    border: 1px solid rgb(241 243 248);
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 7px 8px;
+    margin-top: 20px;
+    position: absolute;
+    border-radius: 8px;
+    z-index: 3;
+    display: none;
+}
+
+.rcs-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.rcs a{
+    display: flex;
+    color: rgb(67 79 90);
+    font-weight: 500;
+    font-size: 14px;
+    padding: 8px 8px 0px 8px;
+    margin-bottom: 10px;
+    align-self: flex-start;
+    width: 100%;
+    
+}
+
+.rcs img{
+    align-items: center;
+    width: 24px;
+    height: 24px;
+}
+
+.ar{
+    display: flex;
+    align-items: center;
+    padding: 6px;
+}
+
+.guid{
+    display: flex;
+    align-items: center;
+    padding: 6px;
+}
+
+.art{
+    display: flex;
+    align-items: center;
+    padding: 6px;
+}
+
 .login{
     margin-right: 45px;
     margin-top: -10px;
     display: flex;
     padding: 2px;
-    align-items:center;
+    align-items: center;
     
 }
 
@@ -204,8 +266,8 @@ header{
 }
 
 .login a{
+    padding: 0px;
     margin-top: 0px;
-    padding:0px;
 }
 
 .txt{
@@ -240,6 +302,7 @@ main{
 .img1 img{
     width: 100%;
 }
+
 .img2{
     display: flex;
     width: 30%;
@@ -247,6 +310,7 @@ main{
     padding: 150px 10px;
     justify-content: flex-end;
 }
+
 .img2 img{
     width: 100%;
 }
@@ -261,7 +325,7 @@ main{
 
 .panel h1{
     font-weight: 800;
-    font-size: 45px;
+    font-size: 40px;
     margin-top: 20px;
     text-align: center;
     line-height: 115%;
@@ -269,7 +333,7 @@ main{
 }
 
 .panel h2{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     text-align: center;
 }
@@ -499,13 +563,13 @@ main{
 }
 
 .p1{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
     line-height: 153%;
 }
 
 .p2{
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
     line-height: 10px;
     margin-top: 5px;
@@ -518,7 +582,7 @@ main{
     align-items: center;
     border: 1px solid white;
     border-radius: 6px;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
     max-width: 98px;
     padding: 6px 12px;
@@ -665,3 +729,4 @@ main{
 .f5 p{
     line-height: 144%;
 }
+
