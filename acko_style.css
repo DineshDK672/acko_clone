@@ -782,3 +782,98 @@ main{
     line-height: 144%;
 }
 
+.testimonial{
+    background-color: rgb(246 247 251);
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    padding: 0px 10px;
+}
+
+.outer{
+    box-sizing: border-box;
+    max-width: 1170px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 40px;
+    margin-left: 80px;
+}
+
+.indi-test{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.star{
+    max-width: 87px;
+    max-height: 58px;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.space{
+    width: 87px;
+    height: 58px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.space img{
+    margin: 0px 0px 7px;
+}
+
+.user{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 33.33%;
+    align-items: flex-start;
+}
+
+.test{
+    max-width: 325px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    margin: 0px 0px 24px;
+    width: 100%;
+}
+
+.user-info{
+    display: flex;
+}
+
+.user-flex{
+    margin-left: 8px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: auto;
+    color: rgb(21 22 25);
+}
+
+.user-info img{
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+}
+
+.username{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 10px;
+    margin: 4px 0px;
+}
+
+.loc{
+    font-size: 10px;
+    color: rgb(85 90 104);
+    line-height: 10px;
+    margin: 0px 0px 4px;
+}
