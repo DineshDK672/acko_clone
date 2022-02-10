@@ -1002,8 +1002,8 @@ main{
 
 .sub-2 img{
     width: 100%;
-    max-width: 120px;
-    max-height: 120px;
+    width: 120px;
+    height: 120px;
     margin: 0px auto 16px;
 }
 
