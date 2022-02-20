@@ -107,62 +107,20 @@ header{
     margin-right: 14px;
 }
 
-.car-prod{
+.prod-sub{
     width: 100%;
     display: flex;
     flex-direction: column;
     
 }
 
-.car-h{
+.prod-h{
     display: flex;
     padding-left: 4px;
     margin-bottom: 16px;
     align-items: center;
     width: 100%;
     
-}
-
-.bike-prod{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-.bike-h{
-    display: flex;
-    padding-left: 4px;
-    margin-bottom: 16px;
-    align-items: center;
-    width: 100%;
-}
-
-.health-prod{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-.health-h{
-    display: flex;
-    padding-left: 4px;
-    margin-bottom: 16px;
-    align-items: center;
-    width: 100%;
-}
-
-.elec-prod{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-.elec-h{
-    display: flex;
-    padding-left: 4px;
-    margin-bottom: 16px;
-    align-items: center;
-    width: 100%;
 }
 
 .rcs-l:hover .rcs{
@@ -206,19 +164,7 @@ header{
     height: 24px;
 }
 
-.ar{
-    display: flex;
-    align-items: center;
-    padding: 6px;
-}
-
-.guid{
-    display: flex;
-    align-items: center;
-    padding: 6px;
-}
-
-.art{
+.rcs-li{
     display: flex;
     align-items: center;
     padding: 6px;
@@ -254,21 +200,7 @@ header{
     line-height: 16px;
 }
 
-.mng-pol{
-    display: flex;
-    padding: 10px;
-    width: 100%;
-    align-items: center;
-}
-
-.raise{
-    display: flex;
-    padding: 10px;
-    width: 100%;
-    align-items: center;
-}
-
-.renew{
+.log-li{
     display: flex;
     padding: 10px;
     width: 100%;
@@ -410,7 +342,7 @@ main{
     margin: 12px 0px;
 }
 
-.car{
+.option-sub{
     display: flex;
     flex-direction: column;
     margin: 12px 0px;
@@ -420,58 +352,12 @@ main{
     opacity: 0.7;
 }
 
-.car:hover{
+.option-sub:hover{
     opacity: 1;
     border-color: white;
 }
 
-.car-img{
-    display: flex;
-    height: 52px;
-    width: 52px;
-    justify-content: center;
-    align-items: center;
-}
-
-.bike{
-    display: flex;
-    flex-direction: column;
-    margin: 12px 0px;
-    align-items: center;
-    width: 30%;
-    opacity: 0.7;
-    border-bottom: 2px solid rgb(124 71 225) ;
-}
-
-.bike:hover{
-    opacity: 1;   
-    border-color: white;
-}
-
-.bike-img{
-    display: flex;
-    height: 52px;
-    width: 52px;
-    justify-content: center;
-    align-items: center;
-}
-
-.health{
-    display: flex;
-    flex-direction: column;
-    margin: 12px 0px;
-    align-items: center;
-    width: 30%;
-    opacity: 0.7;
-    border-bottom: 2px solid rgb(124 71 225) ;
-}
-
-.health:hover{
-    opacity: 1;
-    border-color: white;
-}
-
-.health-img{
+.option-img{
     display: flex;
     height: 52px;
     width: 52px;
@@ -730,56 +616,24 @@ main{
     font-weight: 600;
 }
 
-.f1{
+.foot-sub{
     display: flex;
     align-items: flex-end;
 }
 
-.f1 img{
+.foot-sub img{
     margin-right: 0.5em;
 }
 
-.f1 p{
+.foot-sub p{
     line-height: 144%;
 }
-.f2{
+
+.foot-line{
     width:0px;
     height: 22px;
     border: 1px solid rgb(168 146 247);
     margin: 0px 1em;
-}
-
-.f3{
-    display: flex;
-    align-items: flex-end;
-}
-
-.f3 img{
-    margin-right: 0.5em;
-}
-
-.f3 p{
-    line-height: 144%;
-}
-
-.f4{
-    width:0px;
-    height: 22px;
-    border: 1px solid rgb(168 146 247);
-    margin: 0px 1em;
-}
-
-.f5{
-    display: flex;
-    align-items: flex-end;
-}
-
-.f5 img{
-    margin-right: 0.5em;
-}
-
-.f5 p{
-    line-height: 144%;
 }
 
 .testimonial{
