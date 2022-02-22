@@ -17,6 +17,10 @@ a {
     padding-bottom: 20px;
 }
 
+.mob, .option-img-mob{
+    display: none;
+}
+
 header{
     box-sizing: border-box;
     display: flex;
@@ -26,6 +30,7 @@ header{
     font-weight: 550;
     background-color: #5e27c9;
     font-size: 16px;
+    width: 100%;
 }
 
 .logo{
@@ -377,7 +382,7 @@ main{
     border: 0px solid rgb(195 202 210);
     border-radius: 8px;
     width: 100%;
-    min-height: 81px;
+    height: 81px;
     padding: 0px 20px;
     box-sizing: border-box;
     justify-content: space-between;
@@ -466,13 +471,6 @@ main{
     margin: 0px 6px;
 }
 
-.line-2{
-    width: 100%;
-    max-width: 81px;
-    height: 0px;
-    border: 1px solid rgb(124 71 225);
-    justify-content: center;
-}
 
 .new_car{
     border: 1px solid rgb(147 100 237);
@@ -1057,4 +1055,136 @@ main{
     font-size: 10px;
     line-height: 13px;
     width: 100%;
+}
+
+@media (max-width: 885px) {
+    .first{
+        background-color: white;
+        color: rgb(40 46 51);
+        min-width: 100%;
+    }
+    
+    header{
+        background-color: white;
+    }
+
+    .mob{
+        display: flex;
+        width: 95%;
+        justify-content: space-between;
+        margin: 0px 2.5%;
+    }
+
+    .desktop, .login, .logo, .img1, .img2, .option-img, .i-text, .new_car_in img, .p2{
+        display: none;
+    }
+
+    .panel h1{
+        font-size: 24px;
+        letter-spacing: 0.01em;
+        color: rgb(40 46 51);
+        margin-bottom: 6px;
+        font-weight: 800;
+        padding: 0px 1em;
+    }
+
+    .panel h2{
+        font-size: 0.875rem;
+        letter-spacing: 0.02em;
+        margin: 0px;
+        color: rgb(65 74 83);
+        padding: 0px 1em;
+    }
+
+    .main{
+        min-width: 100%;
+    }
+
+    .option{
+        width: 100%;
+        margin-top : 24px;
+        padding: 0px 1em;
+    }
+
+    .option-sub{
+        min-width: 33.33%;
+        opacity: 1;
+        border-bottom: 2px solid rgb(214 217 224);
+        height: 87px;
+    }
+
+    .option-img-mob{
+        display: flex;
+        width: 48px;
+        height: 48px;
+    }
+
+    .option-img-mob img{
+        padding: 10px;
+        width: 28px;
+        height: 28px;
+    }
+
+    .option-sub:hover{
+        border-color: rgb(124 71 225);
+    }
+
+    .drop{
+        width: 100%;
+        padding: 0px 1em;
+        box-sizing: border-box;
+    }
+    .car-1{
+        width: 100%;
+        border:1px solid rgb(124 71 225);
+        height: 69px;
+    }
+
+    .arrow{
+        max-width: 13px;
+    }
+
+    .txt{
+        width: 60%;
+    }
+
+    .insure{
+        height: 40px;
+        width: 40px;
+        padding: 0px;
+    }
+
+    .line-1{
+        width: 100%;
+        max-width: 34px;
+        border: 1px solid rgb(214 217 224);
+    }
+
+    .or{
+        font-size: 12px;
+        color: rgb(112 127 140);
+    }
+
+    .new_car{
+        padding: 12px 0px;
+    }
+    .new_car_in .mob{
+        display: block;
+        max-width: 22px;
+    }
+
+    .new_car_p{
+        margin: 0px;
+    }
+
+    .p1{
+        font-size: 12px;
+        line-height: 50%;
+        margin-top: 7px;
+    }
+
+    .new_car_p a{
+        color: rgb(28 115 232);
+        font-size: 12px;
+    }
 }
