@@ -499,13 +499,13 @@ main{
 }
 
 .p1{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
     line-height: 153%;
 }
 
 .p2{
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
     line-height: 10px;
     margin-top: 5px;
@@ -524,6 +524,10 @@ main{
     padding: 6px 12px;
 }
 
+.arrow-mob, .quote-mob{
+    display: none;
+}
+
 .poster{
     display: flex;
     justify-content: space-between;
@@ -535,13 +539,13 @@ main{
     max-width: 520px;
     box-sizing: border-box;
     margin: 32px auto 10px;
-    padding-right: 16px;
 }
 
 .poster1{
     display: flex;
     align-items: center;
-    width: auto;
+    width: 100%;
+    justify-content: space-around;
 }
 
 .poster1 img{
@@ -552,6 +556,12 @@ main{
     display: inline-block;
     width: 177px;
     height: 67px;
+}
+
+.pos-mob{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
 }
 
 .pos img{
@@ -1131,13 +1141,18 @@ main{
 
     .drop{
         width: 100%;
-        padding: 0px 1em;
         box-sizing: border-box;
     }
+
+    .car-1, .sec, .new_car{
+        margin: 0px 1em;
+        width: 95%;
+    }
+
     .car-1{
-        width: 100%;
         border:1px solid rgb(124 71 225);
         height: 69px;
+        margin-top: 8px;
     }
 
     .arrow{
@@ -1163,10 +1178,12 @@ main{
     .or{
         font-size: 12px;
         color: rgb(112 127 140);
+        margin: 14px 0px 16px;
     }
 
     .new_car{
         padding: 12px 0px;
+        border: 1px solid rgb(228 234 241);
     }
     .new_car_in .mob{
         display: block;
@@ -1183,8 +1200,53 @@ main{
         margin-top: 7px;
     }
 
-    .new_car_p a{
+    .quote-mob{
+        display: block;
         color: rgb(28 115 232);
         font-size: 12px;
+        margin-top: 4px;
+        font-weight: 600;
     }
+
+    .poster{
+       min-width: 100%;
+       border-radius: 0%;
+       height: 188px;
+       max-height: 188px;
+       line-height: 10px;
+    }
+
+    .poster1{
+        justify-content: space-around;
+    }
+
+    .pos-img{
+        min-height: 188px;
+        max-height: 188px;
+        max-width: 50%;
+    }
+
+    .pos-mob{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .poster2{
+        width: 100%;
+        max-width: 65%;
+        justify-content: space-around;
+    }
+
+    .pos{
+        padding: 1em 0px;
+        max-height: 100%;
+        min-height: 100%;
+    }
+    .pos-p{
+        color: white;
+    }
+
 }
