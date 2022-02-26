@@ -1085,7 +1085,7 @@ main{
         margin: 0px 2.5%;
     }
 
-    .desktop, .login, .logo, .img1, .img2, .option-img, .i-text, .new_car_in img, .p2{
+    .desktop, .login, .logo, .img1, .img2, .option-img, .i-text, .new_car_in img, .p2, .quote{
         display: none;
     }
 
@@ -1178,15 +1178,20 @@ main{
     .or{
         font-size: 12px;
         color: rgb(112 127 140);
-        margin: 14px 0px 16px;
+        margin: 14px 5px 16px;
     }
 
     .new_car{
+        display: flex;
         padding: 12px 0px;
         border: 1px solid rgb(228 234 241);
-        display: flex;
+        justify-content: space-between;
     }
-    
+
+    .new_car_in{
+        width: 100%;
+    }
+
     .new_car_in .mob{
         display: block;
         max-width: 22px;
@@ -1197,9 +1202,10 @@ main{
     }
 
     .p1{
-        font-size: 12px;
+        font-size: 0.7rem;
         line-height: 50%;
         margin-top: 7px;
+        width: 100%;
     }
 
     .quote-mob{
@@ -1211,9 +1217,10 @@ main{
     }
 
     .arrow-mob{
-        display:flex;
+        display: block;
+        padding: 0px 10px;
     }
-    
+
     .poster{
        min-width: 100%;
        border-radius: 0%;
