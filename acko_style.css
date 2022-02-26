@@ -1208,6 +1208,10 @@ main{
         font-weight: 600;
     }
 
+    .arrow-mob{
+        display:block;
+    }
+    
     .poster{
        min-width: 100%;
        border-radius: 0%;
