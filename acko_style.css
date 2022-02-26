@@ -1209,7 +1209,7 @@ main{
     }
 
     .arrow-mob{
-        display:block;
+        display:flex;
     }
     
     .poster{
