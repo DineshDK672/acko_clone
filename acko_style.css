@@ -1452,7 +1452,7 @@ main{
     }
 
     .sub-2{
-        min-width: 500px;
+        min-width: 100%;
         max-width: 500px;
         margin-bottom: 64px;
     }
