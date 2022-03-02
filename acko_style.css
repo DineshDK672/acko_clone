@@ -1455,6 +1455,7 @@ main{
         min-width: 100%;
         max-width: 500px;
         margin-bottom: 64px;
+        padding: 0px;
     }
 
     .sub-2:last-child{
