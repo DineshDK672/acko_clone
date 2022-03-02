@@ -155,7 +155,7 @@
             <section class="drop">
                 <form class="car-1">
                     <div class="icon"><img src="Resources/car-1.svg" alt=""></div>
-                    <div class="txt"><input type="text" placeholder="Enter your car number"></div>
+                    <div class="input-txt"><input type="text" placeholder="Enter your car number"></div>
                     <div class="insure">
                         <div class="i-text"><a href="#">Insure now</a></div>
                         <div class="arrow"><img src="Resources/arrow_forward.png" alt=""></div>
@@ -185,7 +185,9 @@
                 </div>  
                 <div class="poster">
                     <div class="poster1">
-                        <img class="pos-img" src="Resources/poster-1.png" alt="">
+                        <div class="pos-img">
+                            <img src="Resources/poster-1.png" alt="">
+                        </div>
                         <div class="pos-mob">
                             <div class="pos">
                                 <img src="Resources/poster-2.svg" alt="">
@@ -211,18 +213,23 @@
                 </div> 
                 <div class="foot">
                     <div class="foot-sub">
-                        <img src="Resources/foot-1.svg" alt="">
-                        <p>Licensed by IRDAI</p>
+                        <img src="Resources/foot-1.svg" alt="" class="foot-pc">
+                        <img src="Resources/foot-mob-1.svg" alt="" class="foot-mob-img">
+                        <p>Licensed by<br class="foot-mob">IRDAI</p>
                     </div>
                     <div class="foot-line"></div>
                     <div class="foot-sub">
-                        <img src="Resources/foot-2.svg" alt="">
-                        <p>6.2 Crore users</p>
+                        <img src="Resources/foot-2.svg" alt="" class="foot-pc">
+                        <img src="Resources/foot-mob-2.svg" alt="" class="foot-mob-img">
+                        <p class="foot-pc">6.2 Crore users</p>
+                        <p class="foot-mob">95% <br class="foot-mob">5 <img src="Resources/foot-4.svg" alt="">Ratings</p>
                     </div>
                     <div class="foot-line"></div>
                     <div class="foot-sub">
-                        <img src="Resources/foot-3.svg" alt="">
-                        <p>95% 5 <img src="Resources/foot-4.svg" alt="">Ratings</p>
+                        <img src="Resources/foot-3.svg" alt="" class="foot-pc">
+                        <img src="Resources/foot-mob-3.svg" alt="" class="foot-mob-img">
+                        <p class="foot-pc">95% 5 <img src="Resources/foot-4.svg" alt="">Ratings</p>
+                        <p class="foot-mob">6.2 Crore<br>users</p>
                     </div>
                 </div>          
             </section>
@@ -234,6 +241,21 @@
 </section>
 <section class="testimonial">
     <div class="outer">
+        <div class="user-mob">
+            <div class="star-mob">
+                <div class="space">
+                    <img src="Resources/5-star.svg" alt="">
+                </div>
+            </div>
+                <p class="test">Go for ACKO General Insurance if you want a 'WOW'! settlement of your claims.</p>
+                <div class="user-info">
+                    <img src="Resources/user-mob.png" alt="">
+                    <div class="user-flex">
+                        <p class="username">Vikas Gupta</p>
+                        <p class="loc">Lucknow</p>
+                    </div>
+                </div>
+        </div>
         <div class="indi-test">
             <div class="user">
                 <div class="star">
@@ -283,7 +305,9 @@
 <section class="partner">
     <div class="partner-flex">
         <p class="head1">Have a partner issued policy?</p>
+        <p class="head1-mob">ACKO Insurance on your favourite apps</p>
         <p class="head2">Login to claim & download your policy</p>
+        <p class="head2-mob">India’s top brands choose ACKO Insurance for their customers</p>
         <div class="part-logo">
             <div class="part">
                 <img src="Resources/part-1.svg" alt="">
@@ -358,21 +382,24 @@
         <div class="sub-love">
             <div class="sub-1">
                 <div class="sub-2">
-                    <img src="Resources/love-1.svg" alt="">
+                    <img src="Resources/love-1.svg" alt="" class="sub-2-img">
+                    <img src="Resources/love-mob-1.svg" alt="" class="love-mob">
                     <p class="love-p1">Incredibly low premiums</p>
                     <p class="love-p2">Insuring things that matter to you shouldn’t come at a cost. That’s why when you buy from us, you get insurance that fits your pocket.</p>
                 </div>
             </div>
             <div class="sub-1">
                 <div class="sub-2">
-                    <img src="Resources/love-2.svg" alt="">
+                    <img src="Resources/love-2.svg" alt="" class="sub-2-img">
+                    <img src="Resources/love-mob-2.svg" alt="" class="love-mob">
                     <p class="love-p1">Superquick and easy</p>
                     <p class="love-p2">We’re easy, effortless and 100% digital. Forget paperwork, just access all our services with just a few clicks.</p>
                 </div>
             </div>
             <div class="sub-1">
                 <div class="sub-2">
-                    <img src="Resources/love-3.svg" alt="">
+                    <img src="Resources/love-3.svg" alt="" class="sub-2-img">
+                    <img src="Resources/love-mob-3.svg" alt="" class="love-mob">
                     <p class="love-p1">Hassle-free claims</p>
                     <p class="love-p2">We’re on a mission to make insurance claims stress-free. Just give us a call or file a claim online and experience cashless, speedy claim settlements.</p>
                 </div>
@@ -385,6 +412,30 @@
         <div class="contact">
             <p class="con-name">ACKO General Insurance Limited</p>
             <p class="address">2nd Floor, #36/5, Hustlehub One East, Somasandrapalya, 27th Main road, Sector 2, HSR Layout, Bengaluru, Karnataka - 560102</p>
+            <div class="link-mob">
+                <p>Company</p>
+                <img src="Resources/down-arrow.svg" alt="">
+            </div>
+            <div class="link-mob">
+                <p>Support</p>
+                <img src="Resources/down-arrow.svg" alt="">
+            </div>
+            <div class="link-mob">
+                <p>Legal</p>
+                <img src="Resources/down-arrow.svg" alt="">
+            </div>
+            <div class="link-mob">
+                <p>General articles</p>
+                <img src="Resources/down-arrow.svg" alt="">
+            </div>
+            <div class="link-mob">
+                <p>Car insurance articles</p>
+                <img src="Resources/down-arrow.svg" alt="">
+            </div>
+            <div class="link-mob">
+                <p>Two-Wheeler insurance articles</p>
+                <img src="Resources/down-arrow.svg" alt="">
+            </div>
             <p class="social-txt">We’re socially active!</p>
             <div class="social">
                 <a href="#"><img class="social-img" src="Resources/fb.svg" alt=""></a>
